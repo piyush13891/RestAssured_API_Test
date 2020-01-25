@@ -1,0 +1,10 @@
+--- 
+apis: 
+  homeurl: "http://jsonplaceholder.typicode.vvcom"
+  users: /users
+  photos: /photos
+  comments: /comments
+  posts: /posts  
+  userId: /posts?userId
+  postId: /comments?postId=
+  cases_to_be_run: test
