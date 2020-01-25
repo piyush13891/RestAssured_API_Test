@@ -21,7 +21,7 @@ public class PropertyFileReader {
 		Yaml yaml = new Yaml();
 		PropertyFilePojo property = null;
 		try {
-			File file = new File(".\\src\\test\\resources\\properties.yaml");
+			File file = new File("./src/test/resources/properties.yaml");
 			//property = objectMapper.readValue(file, PropertyFilePojo.class);
 			property = yaml.loadAs(new FileReader(file), PropertyFilePojo.class);
 		} catch (Exception e) {
