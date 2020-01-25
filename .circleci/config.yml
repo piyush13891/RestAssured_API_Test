@@ -28,5 +28,5 @@ jobs:
             
       # Save artifacts
       - store_artifacts:
-          path: /tmp/target/output.log
+          path: /tmp/stc/test/resources/target/output.log
          # destination: test
