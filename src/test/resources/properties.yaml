@@ -1,6 +1,6 @@
 --- 
 apis: 
-  homeurl: "http://jsonplaceholder.typicode.vvcom"
+  homeurl: "http://jsonplaceholder.typicode.com"
   users: /users
   photos: /photos
   comments: /comments
