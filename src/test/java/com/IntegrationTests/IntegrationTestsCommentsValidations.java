@@ -81,5 +81,7 @@ public class IntegrationTestsCommentsValidations {
 				}	
 			}
 		}
+		final String dir = System.getProperty("user.dir");
+        	System.out.println("current dir = " + dir);
 	}	
 }
