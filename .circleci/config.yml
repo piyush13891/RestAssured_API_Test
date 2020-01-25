@@ -28,9 +28,9 @@ jobs:
             
       # Save artifacts
       - store_artifacts:
-          path: /target/output.log
+          path: /tmp/circleci-artifacts
          # destination: test
 
       # Upload test results
       - store_test_results:
-          path: /src/test/java/com.IntegrationTests
+          path: /tmp/circleci-test-results
