@@ -47,16 +47,3 @@ jobs:
       - store_artifacts: # store the uberjar as an artifact
       # Upload test summary for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
           path: target/output.log
-
-workflows:
-  version: 2
-  triggertest:
-    triggers: #use the triggers key to indicate a scheduled build
-      - schedule:
-          cron: "50 17 * * *" 
-          filters:
-            branches:
-              only:
-                - master
-    jobs:
-      - build
